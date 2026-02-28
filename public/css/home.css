@@ -1,0 +1,218 @@
+.navbar_frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgba(68, 50, 151, 1);
+}
+
+.navbar_frame .container {
+  position: relative;
+  width: 132opx;
+  height: auto;
+  background-color: rgba(68, 50, 151, 1);
+  padding: 20px 0 14px;
+}
+
+.navbar_frame .container .navbar_top {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar_top .nav_search_frame {
+  width: 651px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_search_frame .search_box {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 17px;
+}
+.search_box .category_list {
+  width: 166px;
+  height: 30px;
+  color: rgba(4, 30, 66, 1);
+
+  border-right: solid 1px rgba(214, 214, 214, 1);
+}
+.category_list select {
+  border: none;
+  width: 140px;
+  height: 30px;
+  color: rgba(4, 30, 66, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+
+  outline: none;
+}
+.search_box input {
+  /* Search products… */
+
+  width: 387px;
+  height: 22px;
+  margin-left: 12px;
+  color: rgba(98, 105, 116, 1);
+  border: none;
+  outline: none;
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 1);
+}
+
+.nav_search_frame .search_icon_box {
+  width: 50px;
+  height: 50px;
+  border-radius: 0px 6px 6px 0px;
+  background: rgba(245, 195, 75, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar_frame .navbar_top_menu {
+  width: 450px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar_top_menu .top_menu_box {
+  width: 140px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.top_menu_box .box_icon_box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 54px;
+  height: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+.box_icon_box img {
+  width: 35px;
+  height: 30px;
+}
+.top_menu_box .box_info_box {
+  width: 69px;
+  height: 43px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: Jost;
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.box_icon_box .basket_count {
+  top: 0%;
+  right: 0%;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(245, 195, 75, 1);
+  font-family: jost;
+  font-style: Bold;
+  font-size: 8px;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar_bott {
+  border-top: solid 1px #5747a2;
+  margin-top: 20px;
+}
+.navbar_bott .navbar_bott_menu_box {
+  margin-top: 10px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar_bott_menu_box .browse_box {
+  width: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: solid 1px #5747a2;
+}
+.browse_box span {
+  width: 133px;
+  height: 28px;
+  color: rgba(255, 255, 255, 1);
+  padding-left: 10px;
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.browse_box img {
+  width: 20px;
+  height: 18px;
+}
+
+.navbar_bott .navbar_route_menu {
+  display: flex;
+  flex-direction: row;
+  width: 650px;
+}
+.navbar_route_menu a {
+  padding-left: 10px;
+  margin-right: 10px;
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+
+  text-align: left;
+  color: white;
+}
+.navbar_route_menu a.title {
+  color: rgba(245, 195, 75, 1);
+}
+.navbar_bott .sorting_menu span {
+  color: rgba(255, 255, 255, 1);
+  margin-left: 10px;
+  font-family: Jost;
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+}
