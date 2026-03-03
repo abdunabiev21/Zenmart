@@ -13,6 +13,7 @@ a {
   width: 1320px;
   height: auto;
   display: flex;
+  justify-content: center;
 }
 
 .navbar_frame {
@@ -27,7 +28,7 @@ a {
 
 .navbar_frame .container {
   position: relative;
-  width: 132opx;
+  width: 1320px;
   height: auto;
   display: flex;
   padding: 20px 0 14px;
