@@ -1,0 +1,66 @@
+.chosenproduct_page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.infocategory {
+  margin-top: 120px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.infocategory .inforoute {
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.inforoute span {
+  color: rgba(4, 30, 66, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.product_info_frame {
+  margin-top: 20px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product_info_frame .container {
+  width: 1320px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.container .product_images {
+  width: 631px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.product_images .big_image {
+  position: relative;
+  width: 100%;
+  height: 680px;
+}
+.big_image img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

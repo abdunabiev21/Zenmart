@@ -483,6 +483,7 @@ a {
 .page_router {
   margin: 20px 0px;
   width: 1320px;
+  margin-top: 20px;
 }
 
 .page_router span {
